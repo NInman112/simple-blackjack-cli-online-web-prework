@@ -46,14 +46,14 @@ def hit?(total)
   
   input = get_user_input
   if input == "s" 
-    end_game
+    return total
   elsif input == "h"
     total += deal_card
     return total
   else
     invalid_command
+    prompt_user
 end
-return total
 end
 
 def invalid_command
