@@ -38,9 +38,10 @@ end
   return total
 end
 
-def hit?(total)
+def hit?
   # code hit? here
-  
+  def hit?(total)
+
   prompt_user
   get_user_input
   input = get_user_input
