@@ -42,7 +42,6 @@ def hit?(total)
   # code hit? here
   
   prompt_user
-  
   input = get_user_input
   if input == "s" 
     return total
