@@ -71,14 +71,12 @@ def runner
   welcome 
   total = initial_round
   until total > 21
+  prompt_user
   hit?
     
   end
 end_game
-  prompt_user
-\
-  
-  
+
   
 end
     
