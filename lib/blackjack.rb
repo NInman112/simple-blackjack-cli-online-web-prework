@@ -69,7 +69,7 @@ def runner
   # code runner here
   
   welcome 
-  initial_round
+  total = initial_round
   prompt_user
   hit?
   
